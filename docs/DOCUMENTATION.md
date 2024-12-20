@@ -53,6 +53,48 @@
 15.0796447
 '''
 
+## triangle.py
+* area(a, b, c)
+Принимает длины сторон треугольника, возвращает площадь тругольника с такими сторонами
+
+Примеры:
+'''
+>>> area(3, 2.4, 2)
+7.2
+'''
+
+* perimeter(a, b , c)
+Принимает длины сторон треугольника, возвращает периметр тругольника с такими сторонами
+
+Примеры:
+'''
+>>> perimeter(3, 2.4, 2)
+7,4
+'''
+
+
+## calculate.py
+
+* calc(fig, func, size)
+Функция 'calc' выполняет вычисление для заданной фигуры и функции.
+
+Параметры:
+
+* 'fig' (str): Название фигуры (например, 'circle' или 'square').
+* 'func' (str): Название функции, которую нужно вычислить (например, 'perimeter' или 'area').
+* 'size' (list): Список значений размеров, необходимых для выполнения функции. Например, радиус для круга или длина стороны для квадрата.
+
+Примеры:
+'''
+Enter figure name, avaliable are ['circle', 'square']:
+>>>circle 
+Enter function name, avaliable are ['perimeter', 'area']:
+>>>area
+Input figure sizes separated by space, 1 for circle and square
+6
+area of circle is 78.53981633974483
+'''
+
 # История изменений
 '''
 commit 5031fa65c8ef81eb64686b4e2ff896b10e3e6feb
