@@ -97,13 +97,10 @@ area of circle is 78.53981633974483
 
 # История изменений
 '''
-commit 5031fa65c8ef81eb64686b4e2ff896b10e3e6feb
-Dec 20 2024
+bb8cea1 Дополнена документация по файлам triangle.py и calculate.py
+3ee7a4b Актуализация версии
+6e81a2b Добавлена история изменений в DOCUMENTATION.md
+5031fa6 В директорию docs добавлен файл DOCUMENTATION.md с документацией
+1a62ecc Добавлены описания функций в circle.py и square.py
 
-    В директорию docs добавлен файл DOCUMENTATION.md с документацией
-
-commit 1a62ecca7d81adc6d3b49ccb619d93e41457f11c
-Dec 20 2024
-
-    Добавлены описания функций в circle.py и square.py
 '''
